@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+}
+
+span {
+  color: #febe01;
+  font-weight: bold;
+}
+
+.carros {
+  background-color: #111;
+  color: #b2b2b2;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 4px;
+}
+
+.carros p {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.carros h2 {
+  margin: 10px;
+}
+
+.bicicletas {
+  background-color: #111;
+  color: #b2b2b2;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 4px;
+}
+
+.bicicletas p {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.bicicletas h2 {
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #febe01;
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
