@@ -1,0 +1,61 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  /* FORMA01 */
+  background-image: linear-gradient(
+    to bottom,
+    rebeccapurple,
+    steelblue,
+    turquoise
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+
+  /* TEXTO EM GRADIENTE FORMA 02
+
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+  /* background-color: black;
+   color: aliceblue; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 a {
+  color: seagreen;
+}
+
+p {
+  font-size: 20px;
+}
+
+.hoje a {
+  color: tomato;
+  font-weight: bold;
+}
+
+.amanha a {
+  color: slateblue;
+  font-weight: bold;
+}
+
+.inicio {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* 
+GLASS EFFECT
+.container{
+  background-color: rgba(25,2,47,0.2);
+  backdrop-filter: blur(20px;
+  -webkit-baacbdrop-filter: blur(20px)
+} */
